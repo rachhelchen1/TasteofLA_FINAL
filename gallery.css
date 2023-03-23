@@ -1,0 +1,289 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  text-align: center;
+}
+.navBtn{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+  color: white;
+  background-color: black;
+
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 10px;
+  font-family: 'Lexend Zetta', sans-serif;
+  letter-spacing: -2px;
+}
+.profile {
+  object-fit:cover;
+  height: 50px;
+  width: 50px;
+}
+
+.navBar {
+  display:flex;
+  align-items: center; 
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+}
+/*  div {
+  border: 1 px white;
+  background: white;
+  margin: 0px;
+} */
+h3 {
+  font-family:monospace;
+  font-size: 30px;
+}
+h5 {
+  font-family:monospace;
+  font-size: 20px;
+}
+
+.galleryTitle{
+  background-color: black;
+  padding: 30px;
+  
+}
+.galleryPhotos{
+  background-color: whitesmoke;
+  padding: 30px;
+  margin: 30px;
+}
+
+.vertical{
+  width: 300px;
+  height: 430px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 20%;
+  margin: 5px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.vertical1{
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 20%;
+  margin: 5px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.horizontalPhotos{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.vanG{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 10px;
+  justify-content: space-evenly;
+  text-align: center;
+
+  
+}
+
+
+
+.streets{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+  
+}
+.verticalLA1{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.bookstore{
+  width: 300px;
+  height: 430px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius:20%;
+  margin: 5px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.horizontal2{
+  display: flex;
+  flex-direction: column;
+}
+.horizontal3{
+  display: flex;
+  flex-direction: column;
+}
+.cafe{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.desk{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.art{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.flower{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.verticalLA2{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+.horizontalPhoto4{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.plants{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.clouds{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.hamilton{
+  width: 300px;
+  height: 430px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius:20%;
+  margin: 5px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.horizontal5{
+   display: flex;
+  flex-direction: column;
+}
+
+.wall{
+   width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.arts{
+   width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.elliegriffth{
+  width: 300px;
+  height: 430px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius:20%;
+  margin: 5px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.horizontal6{
+   display: flex;
+  flex-direction: column;
+}
+
+.mirror{
+   width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.icecream{
+   width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  justify-content: space-evenly;
+  text-align: center;
+}

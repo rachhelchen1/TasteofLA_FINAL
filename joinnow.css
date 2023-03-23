@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-family: didot;
+  font-size: 50px;
+}
+.navBtn{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  opacity: .9;
+  
+  color: white;
+/*   background-color: black; */
+
+  padding: 10px 20px;
+  border: 0px solid white;
+  border-radius: 8px;
+  margin: 10px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+font-family: 'Lexend Zetta', sans-serif;
+letter-spacing: -2px;
+}
+.profile {
+  object-fit:cover;
+  height: 50px;
+  width: 50px;
+}
+
+.navBar {
+  display:flex;
+  align-items: center; 
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+    background-color: black;
+}
+
+input {
+  padding: 8px;
+  text-align: center;
+  margin: 10px;
+}
+button {
+  padding: 8px;
+  margin: 5px;
+  font-size: 80px;
+  font-family: didot;
+}
+h2 {
+  font-family: didot;
+  font-size: 30px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+h3 {
+  font-size: 40px;
+  color: black;
+  font-family: 'Lexend Zetta', sans-serif;
+  letter-spacing: -8px;
+}
+
+ .login {
+  background: white;
+/*    background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center center;
+ background-size: contain; */
+/*    justify-content: center;
+ width: 50%;
+  height: 100px; 
+   margin-top: auto;
+ display: block;
+
+}

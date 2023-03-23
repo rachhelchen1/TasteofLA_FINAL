@@ -1,0 +1,183 @@
+/*  #1F363D 
+#4E92A9
+#79ACA5
+#A2C6A7 
+#CFE0C3
+ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Lexend Zetta', sans-serif;
+  letter-spacing: -2px;
+}
+.homePagePhotos{
+  margin: 10px;
+  
+  
+  
+}
+.navBtn{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+  color: white;
+  background-color: black;
+
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 10px;
+}
+.profile {
+  object-fit:cover;
+  height: 50px;
+  width: 50px;
+  transform: rotate(360deg);
+  transform-origin: right top;
+}
+
+.navBar {
+  display:flex;
+  align-items: center; 
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+}
+.homePagePhotos img{
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
+.mission-statement{
+  padding: 70px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 1100px;
+  z-index: 1;
+  display:flex;
+  justify-content: space-around;
+  margin: 10px;
+  
+}
+h2{
+ font-size: 50px;
+}
+p{
+  font-size:25px;
+  text-align: right;
+  padding: 70px 20px 10px 50px;
+}
+
+.homePagePhotos{
+  width: 500px;
+  height: 400%;
+  overflow-y: auto;
+  overflow-x: hidden; 
+  transform-origin: right top;
+  transform:rotate(-90deg) translateY(-650px);
+  background-color: black;
+  
+}
+h1{
+  background-color: white;
+  padding: 100px;
+  color: black;
+  font-family: 'Prata', serif;
+  font-size: 100px;
+}
+
+
+
+.background{
+  text-align: center;
+  justify-content: center;
+  padding:  50px 100px 50px 100px;
+  transform: rotate(-90deg);
+  font-size: 50px;
+  display:flex;
+  flex-direction: row;
+  
+}
+
+.msimg {
+  object-fit:cover;
+  height: 250px;
+  width: 500px;
+  transform: rotate(90deg);
+/*   object-position: left top; */
+}
+
+.contactus {
+  position: relative;
+  z-index: 2;
+  top: -10px;
+   transform: rotate(360deg);
+
+}
+.taste{
+   transform: rotate(360deg);
+   height: 200px;
+  width: 800px;
+  text-align: center;
+  top: 1600px;
+  right: 200px;
+  position: absolute;
+  
+}
+.contactus img {
+  border: 3px solid black;
+   transform: rotate(360deg);
+  height: 100px;
+  width: 500px;
+  text-align:center;
+}
+
+.contactPage{
+  background-color: white;
+  padding: 60px;
+  position: absolute;
+  top: 1900px;
+  right: 1px;
+  left: 1px;
+  text-align: center;
+  
+  
+  
+  
+}
+.socials img {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  transform: rotate(360deg);
+  height: 50px;
+  width: 50px;
+  border: 3px solid black;
+  background-color: black;
+  border-radius: 10%;
+  
+  
+}
+
+.night{
+  height:200px;
+  width: 400px;
+  transform: rotate(360deg);
+  position: relative;
+  z-index: 2;
+  
+}
+.gif{
+  background-color: white;
+  padding: 50px;
+
+  
+}
+

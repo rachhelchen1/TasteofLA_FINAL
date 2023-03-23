@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+.navBtn{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+  color: white;
+  background-color: black;
+
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 10px;
+  font-family: 'Lexend Zetta', sans-serif;
+  letter-spacing: -2px;
+}
+
+.profile {
+  object-fit:cover;
+  height: 50px;
+  width: 50px;
+}
+
+.navBar {
+  display:flex;
+  align-items: center; 
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+  background-color: black;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.dot {
+  height: 250px;
+  width: 250px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 100px;
+  flex-direction: row;
+}
+.pictures {
+  object-fit: cover;
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  padding-bottom: 175px;
+}
+.blackbox{
+  background-color: black;
+}
+.contactus {
+  position: relative;
+  z-index: 2;
+  top: -50px;
+}
+.contactus img {
+  border: 3px solid black;
+}
+.socials {
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+

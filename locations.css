@@ -1,0 +1,135 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  text-align: center;
+  font-family: 'Lexend Zetta', sans-serif;
+  letter-spacing: -4.5px;
+}
+body {
+  color: white;
+  background-color: #000000;
+  font-size: 25px;
+}
+/* .header {
+  color: #9EC1A3; 
+  font-size: 20px;
+  background-color: #439858; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  border: 3px solid #85bbe5; 
+  padding: 10px;
+} */
+
+.navBtn{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+  color: white;
+  background-color: black;
+
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 10px;
+  font-family: 'Lexend Zetta', sans-serif;
+  letter-spacing: -2px;
+}
+.profile {
+  object-fit:cover;
+  height: 50px;
+  width: 50px;
+}
+
+.navBar {
+  display:flex;
+  align-items: center; 
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+}
+
+.food img{
+  object-fit:cover;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  display: inline-block;
+
+}
+.food {
+  font-size: 25px;
+}
+.localRestaurants{
+  font-size: 35px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+.row3 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+.row4 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+  filter: drop-shadow(0 0 0.80rem #c21aff);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.small  {
+  width: 90%;
+  height: 150px;
+  object-fit: cover;
+}
+
+
